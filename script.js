@@ -1,3 +1,6 @@
+// There is no need to create any function if we will treat this file as a fucnction
+
+// Storaged data
 const nouns = [
   "The movie",
   "The director",
@@ -16,6 +19,7 @@ const ajectives = [
   "so peacefull",
 ];
 
+// This object contains all necessary data
 const message = {
   _nouns: nouns,
   _verbs: verbs,
@@ -34,4 +38,5 @@ const message = {
   },
 };
 
+// Call the message
 console.log(`${message.noun} ${message.verb} ${message.ajective}`);
